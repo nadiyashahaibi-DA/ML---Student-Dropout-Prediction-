@@ -2,15 +2,20 @@
 Machine Learning - Student Dropout Prediction
 ------------
 
+## Team & Contributions
+
+| Member | Focus |
+|---|---|
+| Nadiya Al-Shahaibi | Data cleaning, EDA, feature selection, KNN model, hyperparameter tuning, SMOTE |
+| Carla Fajula | Data loading, Random Forest model, tuning, class-balancing experiments |
+| Kseniia Iukhlina | EDA, Gradient Boosting model, hyperparameter tuning, SMOTE |
+
+---
 **Predicting Student Dropout & Academic Success**
 
 A machine learning project that predicts whether a student will **Dropout**, remain **Enrolled**, or **Graduate** — using only enrollment-time and first-semester data — so institutions can flag at-risk students early enough to intervene.
 
-**Team:** Kseniia Iukhlina · Carla Fajula · Nadiya Al-Shahaibi
-**Program:** Data Analytics Bootcamp, Ironhack University
-
 ---
-
 ## Problem Statement
 
 Student attrition is costly for both students and institutions, but most warning signs only become visible after a student has already disengaged. This project asks: **can we predict a student's eventual outcome using only the data available at enrollment and after their first semester** — before mid-course intervention windows close?
@@ -87,13 +92,6 @@ Python · pandas · NumPy · scikit-learn · imbalanced-learn (SMOTE) · matplot
 - The Enrolled class remains hard to predict and merits further feature engineering or a dedicated model
 - Next steps: additional student information, further model optimization, and an advisor-facing dashboard for real-world deployment
 
-## Team & Contributions
-
-| Member | Focus |
-|---|---|
-| Nadiya Al-Shahaibi | Data cleaning, EDA, feature selection, KNN model, hyperparameter tuning, SMOTE |
-| Carla Fajula | Data loading, Random Forest model, tuning, class-balancing experiments |
-| Kseniia Iukhlina | EDA, Gradient Boosting model, hyperparameter tuning, SMOTE |
 
 ## License
 
